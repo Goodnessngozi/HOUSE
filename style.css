@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav{
+    margin: 30px 80px;
+}
+nav ul{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+nav ul .kyle{
+    display: flex;
+    margin-right: 290px;
+}
+nav ul .kyle img{
+    height: 25px;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: blue;
+}
+nav ul button{
+    height: 35px;
+    width: 100px;
+    color: white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+nav ul button:hover{
+    background-color: blue;
+    font-weight: bold;
+}
+
+/* ..............section2......... */
+.flex1{
+    display: flex;
+    margin-top: 100px;
+}
+.flex1 .mills{
+    margin-left: 80px;
+}
+.flex1 .mills h2{
+    font-size: 70px;
+}
+.flex1 .mills .icon{
+    display: flex;
+    margin-top: 30px;
+}
+.flex1 .mills .icon .fa{
+    display: flex;
+}
+.flex1 .mills .icon .fa p{
+    margin-left: 20px;
+}
+.flex1 .mills .icon .fab{
+    margin-left: 20px;
+    display: flex;
+}.flex1 .mills .icon .fab p{
+    margin-left: 20px;
+    font-weight: bold;
+} 
+.flex1 .mills button{
+    margin-top: 30px;
+    height: 45px;
+    width: 100px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-weight: bold;
+    box-shadow: 2px 1px 2px 1px gray;
+}
+.flex1 .mills button:hover{
+    background-color: blue;
+    color: white;
+}
+.flex1 img{
+    height: 440px;
+    width: 300px;
+    margin-left: 1000px;
+    position: absolute;
+}
+
+/* .........section3...... */
+.first{
+    background-image: url(images/hotel2.jfif);
+    height: 600px;
+    margin-top: 80px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.first .sub{
+    height: 190px;
+    width: 300px;
+    margin-left: 1000px;
+    background-color: black;
+}
+.first .sub h2{
+    color: white;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+.first .sub p{
+    color: white;
+    margin-left: 20px;
+    font-size: 12px;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.first .sub .i i{
+    color: white;
+    padding-top: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.first .sub .i i:hover{
+    color: blue;
+}
+
+/* ..........section4......... */
+.spilt{
+    margin: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.spilt .two h1{
+    font-size: 35px;
+}
+.spilt button{
+    margin-top: 30px;
+    height: 45px;
+    margin-right: 170px;
+    width: 100px;
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-weight: bold;
+    box-shadow: 2px 1px 2px 1px gray;
+}
+.spilt button:hover{
+    background-color: blue;
+    color: white;
+}
+
+/*........... section5................ */
+.back{
+    background-color: gainsboro;
+    margin-top: 80px;
+    height: 390px;
+}
+.back .project{
+    display: flex;
+    margin-left: 80px;
+    padding-top: 80px;
+}
+.back .project .text h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.back .project .text button{
+    margin-top: 30px;
+    height: 45px;
+    margin-right: 170px;
+    width: 120px;
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-weight: bold;
+    box-shadow: 2px 1px 2px 1px gray;
+}
+.back .project .text  button:hover{
+    background-color: blue;
+    color: white;
+}
+.back .project img{
+    height: 350px;
+    width: 750px;
+    margin-left: 100px;
+}
+
+/* ...........section6....... */
+.three{
+    margin-top: 120px;
+    margin-left: 80px;
+    display: flex;
+}
+.three .get p{
+    margin-top: 20px;
+}
+.three .get button{
+    margin-top: 30px;
+    height: 45px;
+    margin-right: 170px;
+    width: 120px;
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-weight: bold;
+    box-shadow: 2px 1px 2px 1px gray;
+}
+.three .get button:hover{
+    background-color: blue;
+    color: white;
+}
+.three .getin{
+    margin-top: 45px;
+    margin-left: 150px;
+}
+.three .getin p{
+    margin-top: 15px;
+}
+.three .getin i{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.three .getin i:hover{
+    color: blue;
+}
+
+.free{
+    height: 60px;
+    background-color: white;
+    margin-top: 80px;
+}
